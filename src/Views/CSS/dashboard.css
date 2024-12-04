@@ -1,0 +1,1 @@
+.pannel{height:calc(100vh - 70px)}.option{padding:40px;align-items:normal}@media (min-width:1024px){.option{width:50%}.pannel{display:flex;flex-wrap:wrap;justify-content:space-around}}@media (max-width:1024px){.option{height:100%}.pannel{display:flex;flex-direction:column}}.buttonDashboard{width:90%;font-size:var(--font-size-title)}

@@ -1,0 +1,65 @@
+/* STYLE BUTTON */
+.button{
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin: 5px;
+    cursor: pointer;
+    text-decoration: none;
+}
+@media (min-width: 1024px) {
+    .button:hover {
+        background-color: var(--eerie-black);
+        color: var(--mikado-yellow);
+    }
+}
+@media (max-width: 1024px) {
+    .button{
+        font-size: var(--font-size);
+        margin: 20px 0;
+    }
+    .buttonAffichePopup{
+        margin: 20px 0 0 8%;
+    }
+    .buttonClosePopup{
+        font-size: var(--font-size);
+    }
+    .buttonCallToAction{
+        width: 80%;
+        text-align: center;
+    }
+}
+.buttonMenu{
+    background-color: var(--mikado-yellow);
+    color: var(--eerie-black);
+    font-size: var(--font-size-sub-title);
+}
+.buttonTitle{
+    background-color: var(--eerie-black);
+    color: var(--mikado-yellow);
+    font-size: var(--font-size-important);
+    padding: 0;
+}
+.buttonDelete{
+    background-color: var(--blue-violet);
+    color: white;
+}
+.buttonAdd{
+    font-size: var(--font-size-sub-title);
+    background-color: var(--mikado-yellow);
+    color: var(--eerie-black);
+}
+.buttonCallToAction{
+    background-color: var(--mikado-yellow);
+    color: var(--eerie-black);
+    font-size: var(--font-size-title);
+    padding: 10px;
+}
+.buttonClosePopup{
+    background-color: var(--mikado-yellow);
+    border: solid 1px;
+    padding: 5px 10px;
+    float: right;
+    margin-right: 20px;
+    border-radius: 20px;
+}

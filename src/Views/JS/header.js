@@ -1,0 +1,1 @@
+function burgerMenuAction(){const n=document.getElementById("menu");null!=n&&(n.classList.contains("open")?n.classList.remove("open"):n.classList.add("open"))}document.addEventListener("DOMContentLoaded",function(){const n=document.getElementById("burgerMenuButton");n.addEventListener("click",function(){burgerMenuAction()})});

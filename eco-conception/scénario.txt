@@ -1,0 +1,21 @@
+
+Scénario
+
+## Acte métier
+
+## Solution
+
+## Scénario
+
+Le but de ce site et un site vitrine pour une salle de muscu, les utilisateurs peuvent voir les
+machines disponibles et les différent programme proposer par la salle
+les client peuvent visualiser la page d'accueil, page de description et contact
+et dans la page de description visualiser le details d'un programme
+Le client est inviter à prendre contact avec la l'établisement pour souscrire à un programme via un formulaire de contact et ou par téléphone
+
+les coach eu peuvent mettre à jour les machines disponible, les exercices proposé et les programmes
+
+Les programme sont une liste d'exercice adapté au besoin du client
+
+Le coach peut mettre à jours les information du site comme les infos de contact, et les phrase de motivation et d'accroche du site qui se trouve dans la page
+Description et Accueil

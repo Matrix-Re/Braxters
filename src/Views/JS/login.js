@@ -1,0 +1,1 @@
+function redirict(e){e&&e.Link?window.location.href=e.Link:console.error("Lien de redirection manquant.")}document.addEventListener("DOMContentLoaded",function(){document.addEventListener("submit",function(t){if(t.target&&"ajaxForm"===t.target.id){t.preventDefault();let e=new FormData(t.target);e.append("ActionAjax","true"),AjaxRequest("Login",e,redirict)}})});

@@ -1,0 +1,93 @@
+Header{
+    padding-bottom: 0px !important;
+    border-bottom: 2px solid var(--mikado-yellow);
+}
+Header button,
+Header b{
+    height: fit-content;
+    font-weight: bold;
+    padding-right: 20px;
+    padding-top: 8px;
+}
+
+/* Affichage PC */
+@media (min-width: 1024px){
+    .menu{
+        background-color: var(--eerie-black);
+        display: flex;
+        align-items: center;
+        justify-content: space-between
+    }
+    .buttonTitle{
+        margin: 0 0 0 5px !important;
+    }
+    .burgerMenu{
+        display: none;
+        margin: 0;
+    }
+}
+/* Affichage Mobile */
+@media (max-width: 1024px){
+    .headerMenu{
+        padding-bottom: 50px;
+    }
+    .listPage{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+    }
+    .listpage, .listPage div, .listPage div a, .login a{
+        width: 100%;
+    }
+    .listPage div a, .login a{
+        text-align: center;
+    }
+    .menu{
+        max-height: 0;
+        flex-direction: column;
+        background-color: var(--mikado-yellow);
+        width: 100%;
+        align-items: center;
+        overflow: hidden;
+        transition: max-height 0.5s ease-out;
+    }
+    .open {
+        max-height: 100%;
+        opacity: 1;
+    }
+    .login{
+        display: flex;
+        justify-content: center;
+    }
+    .burgerMenuIcon{
+        width: 200px;
+        height: 200px;
+    }
+    .buttonTitle{
+        display: none;
+    }
+    .burgerMenu{
+        display: flex;
+    }
+    .burgerMenuButton:hover {
+        cursor: pointer;
+    }
+    .appNameMenuText{
+        color: var(--mikado-yellow);
+        font-size: 5em;
+        display: flex;
+        align-items: center;
+    }
+    .buttonMenu{
+        margin: 10px;
+        display: block;
+        font-weight: bolder;
+        font-size: 3em !important;
+        display: flex;
+        justify-content: center;
+    }
+    .test{
+        display: flex;
+        justify-content: center;
+    }
+}

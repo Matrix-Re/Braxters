@@ -1,0 +1,1 @@
+let currentSlide=0;function showSlide(e){var t=document.querySelectorAll(".machines-images img").length;currentSlide=t<=e?0:e<0?t-1:e;e=100*-currentSlide;document.querySelector(".machines-images").style.transform="translateX("+e+"%)"}function nextSlide(){showSlide(currentSlide+1)}function prevSlide(){showSlide(currentSlide-1)}setInterval(nextSlide,3e3);
